@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+body{
+    max-width: 360px;
+    margin: 0 auto;
+}
+.wrapper{
+    height: 650px;
+    background: #000;
+    margin: 15px;
+    border-radius: 35px;
+    padding: 15px;
+    overflow: hidden;
+}
+.logo{
+    font-size: 40px;
+    margin-top: 15px;
+    font-family: "Modak", system-ui;
+    margin-left: 15px;
+    letter-spacing: 1.5px;
+}
+span{
+    color: rgb(255, 102, 46);
+    font-family: "Modak", system-ui;
+}
+sup{
+    font-size: 12px;
+    font-family: "Modak", system-ui;
+}
+.image{
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  position: relative;
+  left: 35px;
+  top: -50px;
+  margin: 0;
+}
+.heads{
+    position: relative;
+    top: -150px;
+    margin-left: 10px;
+    font-family: "Modak", system-ui;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+}
+.low-text{
+    position: relative;
+    top: -150px;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.price-tag{
+    position: relative;
+    top: -130px;
+    margin-left: 10px;
+    display: flex;
+}
+.price{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
+button{
+    background-color: rgb(255, 102, 46);
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-bottom-right-radius: 35px;
+    border-top-left-radius: 20px;
+    margin-left: 100px;
+    font-family: "Modak", system-ui;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+}
